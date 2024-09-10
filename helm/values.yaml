@@ -545,7 +545,7 @@ primary:
     ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
     ##
     nodePorts:
-      mysql: ""
+      mysql: "30306"
     ## @param primary.service.clusterIP MariaDB Primary Kubernetes service clusterIP IP
     ##
     clusterIP: ""
