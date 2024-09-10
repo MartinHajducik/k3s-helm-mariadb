@@ -385,7 +385,7 @@ primary:
   ##
   resources:
     requests:
-      cpu: 1
+      cpu: 2
       memory: 256Mi
     limits:
       cpu: 2
