@@ -533,7 +533,7 @@ primary:
   service:
     ## @param primary.service.type MariaDB Primary Kubernetes service type
     ##
-    type: ClusterIP
+    type: NodePort
     ports:
       ## @param primary.service.ports.mysql MariaDB Primary Kubernetes service port for MariaDB
       ##
